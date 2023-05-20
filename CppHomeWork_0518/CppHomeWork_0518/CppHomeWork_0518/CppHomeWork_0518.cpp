@@ -25,8 +25,8 @@ int StringCount(char* _Arr)
 
     while (_Arr[count])
     {
-            putchar(strCount);
-            count++;
+        putchar(strCount);
+        count++;
     }
 
     return count;
@@ -37,27 +37,27 @@ void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
     // 1. 들어온 글자를 전부 '1'로 채워봐라.
     //  1-1. 함수 내부에서 하지 말고
     // for while도 생각하지 말고
-    
+
     if (_Arr == nullptr)
     {
-        return ;
+        return;
     }
 
     int count = 0;
 
     while (_Arr[count])
     {
-        char changeChar = _Arr[count];
+        char* changeChar = &_Arr[count];
 
-        if (changeChar == _PrevCh)
+        if (*changeChar == _PrevCh)
         {
-            _PrevCh = _NextCh;
+            *changeChar = _NextCh;
         }
         count++;
     }
     return;
 
-    
+
 }
 
 int main()
@@ -75,19 +75,19 @@ int main()
     //}
 
 
-	{
-	    char Arr[100] = "aaa bbb ccc";
+    {
+        char Arr[100] = "aaa bbb ccc";
 
-	    //Arr[0] = '1';
+        //Arr[0] = '1';
 
-	    // Arr[100] = "1111111111111";
+        // Arr[100] = "1111111111111";
 
-	    // 3이 나와야 합니다.
-	    // "aaa bbb ccc"; => "aaa bbb ddd";
-	    ChangeCh(Arr, 'c', 'd');
+        // 3이 나와야 합니다.
+        // "aaa bbb ccc"; => "aaa bbb ddd";
+        ChangeCh(Arr, 'c', 'd');
 
-	    int a = 0;
-	}
+        int a = 0;
+    }
 
 
 }
