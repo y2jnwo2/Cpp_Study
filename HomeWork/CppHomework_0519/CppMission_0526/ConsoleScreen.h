@@ -30,5 +30,5 @@ protected:
 
 private:
     char BaseCh = ' ';
-    char ArrScreen[YLine][XLine + 1] = {};
+    char ArrScreen[GlobalValue::YLine][XLine + 1] = {};
 };
