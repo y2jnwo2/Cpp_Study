@@ -1,0 +1,15 @@
+﻿  ConsoleScreen.cpp
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.h(33,20): error C2065: 'YLine': 선언되지 않은 식별자입니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.h(33,27): error C2065: 'XLine': 선언되지 않은 식별자입니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.cpp(15,35): error C3863: 배열 형식 'char [0][0]'은(는) 할당할 수 없습니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.cpp(25,33): error C3863: 배열 형식 'char [0][0]'은(는) 할당할 수 없습니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.cpp(27,46): error C3863: 배열 형식 'char [0][0]'은(는) 할당할 수 없습니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.cpp(64,5): error C2036: 'const char [0][0]': 알 수 없는 크기입니다.
+  CppMission_0526.cpp
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.h(33,20): error C2065: 'YLine': 선언되지 않은 식별자입니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.h(33,27): error C2065: 'XLine': 선언되지 않은 식별자입니다.
+  Global.cpp
+  Player.cpp
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.h(33,20): error C2065: 'YLine': 선언되지 않은 식별자입니다.
+C:\UE5Git\Cpp_Study\HomeWork\CppHomework_0519\CppMission_0526\ConsoleScreen.h(33,27): error C2065: 'XLine': 선언되지 않은 식별자입니다.
+  코드를 생성하고 있습니다...

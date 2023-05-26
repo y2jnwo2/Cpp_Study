@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32602.291
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppHomework_0519", "CppHomework_0519\CppHomework_0519.vcxproj", "{034784ED-1BCF-4C32-9811-F20D2B35E7C8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppHomework_0522", "..\CppHomework_0522\CppHomework_0522.vcxproj", "{33CFF91F-9B5C-4E51-AFDC-BD949C0D255F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppHomework_0524", "CppHomework_0524\CppHomework_0524.vcxproj", "{B8256092-14FC-4BEA-9BD4-E93D09612739}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppMission_0526", "CppMission_0526\CppMission_0526.vcxproj", "{335687C8-F8FF-480D-A116-527F591F9B20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{B8256092-14FC-4BEA-9BD4-E93D09612739}.Release|x64.Build.0 = Release|x64
 		{B8256092-14FC-4BEA-9BD4-E93D09612739}.Release|x86.ActiveCfg = Release|Win32
 		{B8256092-14FC-4BEA-9BD4-E93D09612739}.Release|x86.Build.0 = Release|Win32
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Debug|x64.ActiveCfg = Debug|x64
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Debug|x64.Build.0 = Debug|x64
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Debug|x86.ActiveCfg = Debug|Win32
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Debug|x86.Build.0 = Debug|Win32
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Release|x64.ActiveCfg = Release|x64
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Release|x64.Build.0 = Release|x64
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Release|x86.ActiveCfg = Release|Win32
+		{335687C8-F8FF-480D-A116-527F591F9B20}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
