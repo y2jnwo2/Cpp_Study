@@ -1,5 +1,4 @@
 #pragma once
-#include "Global.h"
 #include "int4.h"
 
 class int4;
@@ -30,5 +29,6 @@ protected:
 
 private:
     char BaseCh = ' ';
-    char ArrScreen[GlobalValue::YLine][XLine + 1] = {};
+    char ArrScreen[10][21] = {};
 };
+

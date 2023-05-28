@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <conio.h>
-#include "ConsoleScreen.h"
 #include "Global.h"
+#include "ConsoleScreen.h"
 #include "int4.h"
 #include "Player.h"
 

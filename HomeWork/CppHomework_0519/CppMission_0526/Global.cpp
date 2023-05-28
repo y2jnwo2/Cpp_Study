@@ -1,8 +1,6 @@
 #include "Global.h"
-#include "int4.h"
-	
-	 const int Globalvalue::XLine = 20;
-	 const int Globalvalue::YLine = 10;
+const int Globalvalue::XLine;
+const int Globalvalue::YLine;
 
 	 const int4 Globalvalue::Left = { -1, 0 };
 	 const int4 Globalvalue::Right = { 1, 0 };

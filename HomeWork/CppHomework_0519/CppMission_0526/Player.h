@@ -1,6 +1,6 @@
 #pragma once
+
 #include "int4.h"
-#include "ConsoleScreen.h"
 
 class ConsoleScreen;
 class Player

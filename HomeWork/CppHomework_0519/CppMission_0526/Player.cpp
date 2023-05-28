@@ -1,8 +1,9 @@
-#include "int4.h"
+
 #include "Player.h"
-#include "Global.h"
-#include <iostream>
 #include <conio.h>
+#include "Global.h"
+#include "ConsoleScreen.h"
+
     int4 Player::GetPos() const
     {
         return Pos;

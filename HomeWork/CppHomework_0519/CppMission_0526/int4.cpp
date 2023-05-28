@@ -1,5 +1,4 @@
 #include "int4.h"
-#include <iostream>
 
 
 

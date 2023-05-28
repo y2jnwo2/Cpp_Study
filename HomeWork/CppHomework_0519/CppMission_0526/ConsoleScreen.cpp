@@ -1,8 +1,8 @@
 
 #include "ConsoleScreen.h"
 #include <iostream>
-#include "int4.h"
-   
+#include <conio.h>
+#include "Global.h"   
 
     void ConsoleScreen::Init(char _BaseCh)
     {
