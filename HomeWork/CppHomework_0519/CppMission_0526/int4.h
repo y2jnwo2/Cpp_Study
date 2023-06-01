@@ -16,6 +16,7 @@ public:
 
     int4 operator+(const int4& _Other) const;
    
-
+    bool operator==(const int4& _Other);
+    
 
 };

@@ -127,14 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="ConsoleScreen.cpp" />
     <ClCompile Include="CppMission_0526.cpp" />
     <ClCompile Include="Global.cpp" />
     <ClCompile Include="int4.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="work.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="ConsoleScreen.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="int4.h" />

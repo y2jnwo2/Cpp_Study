@@ -28,4 +28,10 @@
         return Return;
     }
 
+    bool int4::operator==(const int4& _Other)
+    {
+        return X == _Other.X &&
+            Y == _Other.Y;
+    }
+
 

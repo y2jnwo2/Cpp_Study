@@ -3,6 +3,13 @@
 #include <conio.h>
 #include "Global.h"
 #include "ConsoleScreen.h"
+#include "Wall.h"
+#include "Bullet.h"
+
+Player::Player()
+{
+
+}
 
     int4 Player::GetPos() const
     {
@@ -13,7 +20,17 @@
     {
         Pos += _Pos;
     }
-
+    bool Player::IsWallCheck(Wall* _Wall, int4 _Pos)
+    {
+        for (size_t i = 0; i < 5; i++)
+        {
+            if (_Wall[i].GetPos() == _Pos)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 
     void Player::SetPos(const int4& _Pos)
     {
@@ -23,8 +40,10 @@
         Pos = _Pos;
     }
 
-    void Player::Input(ConsoleScreen* _Sreen)
+    bool Player::Input(ConsoleScreen* _Sreen, Wall* _Wall)
     {
+        bool isFire = false;
+
         char Select = (char)_getch();
 
         int4 MovePos = { 0, 0 };
@@ -72,14 +91,18 @@
         case 's':
             MovePos = Globalvalue::Down;
             break;
+        case 'f':
+            isFire = true;
+            break;
         default:
             break;
         }
 
-        if (false == _Sreen->IsScreenOut(GetPos() + MovePos))
+        if (false == _Sreen->IsScreenOut(GetPos() + MovePos)
+            && false == IsWallCheck(_Wall, GetPos() + MovePos))
         {
             AddPos(MovePos);
         }
-
+        return isFire;
     }
 

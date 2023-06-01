@@ -12,6 +12,10 @@
 
     void ConsoleScreen::SetPixel(const int4& _Pos, char _Ch)
     {
+        if (IsScreenOut(_Pos))
+        {
+            return;
+        }
         ArrScreen[_Pos.Y][_Pos.X] = _Ch;
     }
 
